@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Valentine's Day Experiment 💖
 
 Spread love with code! This web app features a cute bear inviting you to be its Valentine. Click "Yes" for a celebration or be persuaded by clever responses if you click "No". Enjoy animated interactions & share some love!
@@ -30,3 +31,7 @@ Special thanks to [Abdullah007bajwa](https://github.com/Abdullah007bajwa) for th
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+=======
+# Valentines-Day-Experiment
+## Valentine's Day Experiment 💖  Spread love with code! This web app features a cute bear inviting you to be its Valentine. Click "Yes" for a celebration or be persuaded by clever responses if you click "No". Enjoy animated interactions &amp; share some love!
+>>>>>>> origin/main
