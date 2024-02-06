@@ -1,0 +1,104 @@
+
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f74e;
+  }
+  
+  .valentine-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff9a;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto; 
+    text-align: center;
+  }
+  
+
+  @media (max-width: 768px) {
+    .valentine-container {
+      width: 80%; 
+      margin: 20px auto; 
+    }
+  }
+  
+  
+  .valentine-container img {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  .text-container {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .yes-button,
+  .no-button {
+    font-family: Arial, sans-serif;
+    background-color: #ff6666;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .yes-button:hover,
+  .no-button:hover {
+    background-color: #ff4d4d;
+  }
+  
+  .github-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #ffffff; /* Change the text color to white */
+    background-color: #333; /* Add a background color */
+    padding: 10px 20px; /* Add padding for better readability */
+    border-radius: 8px; /* Add rounded corners */
+    text-decoration: none;
+    font-size: 16px; /* Increase font size for better visibility */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .github-link:hover {
+    background-color: #555; /* Darken the background color on hover */
+  }
+  
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
